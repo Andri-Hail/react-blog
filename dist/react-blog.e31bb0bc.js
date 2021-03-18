@@ -33973,12 +33973,7 @@ var mapStateToProps = function mapStateToProps(state) {
 var _default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Header);
 
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js","../actions":"src/actions/index.js","./editHeader":"src/components/editHeader.js","../styles/app.css":"src/styles/app.css"}],"src/styles/App.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js","../actions":"src/actions/index.js","./editHeader":"src/components/editHeader.js","../styles/app.css":"src/styles/app.css"}],"src/components/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33998,7 +33993,7 @@ var _Header = _interopRequireDefault(require("./Header"));
 
 var _actions = require("../actions");
 
-require("../styles/App.css");
+require("../styles/app.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34051,7 +34046,7 @@ var _default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(App
 
 
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js","./AddPost":"src/components/AddPost.js","./Posts":"src/components/Posts.js","./Header":"src/components/Header.js","../actions":"src/actions/index.js","../styles/App.css":"src/styles/App.css"}],"src/reducers/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js","./AddPost":"src/components/AddPost.js","./Posts":"src/components/Posts.js","./Header":"src/components/Header.js","../actions":"src/actions/index.js","../styles/app.css":"src/styles/app.css"}],"src/reducers/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

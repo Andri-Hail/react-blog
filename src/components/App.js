@@ -5,7 +5,7 @@ import AddPost from './AddPost'
 import Posts from './Posts'
 import Header from './Header'
 import { VisibilityFilters, updateVis } from '../actions'
-import '../styles/App.css'
+import '../styles/app.css'
 
 const App = ({ posts, dispatchUpdateVis, header }) => {
   const { SHOW_POST, SHOW_NONE } = VisibilityFilters
