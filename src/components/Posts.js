@@ -27,7 +27,10 @@ const Posts = ({ title, body, image, id }) => {
   return (
     <div className="blogpost">
       <h3>{title}</h3>
-      <h4 style={{ float: 'right' }}>Post: {id}</h4>
+      <h4 style={{ float: 'right' }}>
+        Post:
+        {id}
+      </h4>
       <img src={image} style={{ maxWidth: '300px' }} alt="wrong link!" />
       <p>{body}</p>
       <button onClick={() => afterEdit()}>edit</button>

@@ -4,6 +4,7 @@ import visibility from './visibilityFilter'
 import editPost from './editFilter'
 import posts from './posts'
 import header from './header'
+
 export default combineReducers({
   posts,
   showPost,

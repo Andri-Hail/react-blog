@@ -33749,7 +33749,7 @@ var Posts = function Posts(_ref) {
     style: {
       float: 'right'
     }
-  }, "Post: ", id), _react.default.createElement("img", {
+  }, "Post:", id), _react.default.createElement("img", {
     src: image,
     style: {
       maxWidth: '300px'

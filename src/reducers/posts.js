@@ -1,6 +1,8 @@
 const defaultState = []
 const posts = (state = defaultState, action) => {
-  const { type, id, title, body, image } = action
+  const {
+    type, id, title, body, image,
+  } = action
 
   switch (type) {
     case 'ADD_POST':
@@ -8,7 +10,9 @@ const posts = (state = defaultState, action) => {
     case 'EDIT_EXISTING_POST':
       return state.map(x => {
         if (x.id === id) {
-          return { id, title, image, body, editing: !x.editing }
+          return {
+            id, title, image, body, editing: !x.editing,
+          }
         }
         return x
       })
